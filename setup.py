@@ -23,10 +23,7 @@ setup(
     author_email='balexlandau@gmail.com',
     description='Django middleware for the Kadabra metrics framework',
     long_description=__doc__,
-    py_modules=['django_kadabra'],
-    packages=(
-        'django_kadabra.middleware',
-    ),
+    packages=['django_kadabra'],
     zip_safe=False,
     include_package_data=True,
     platforms='any',
