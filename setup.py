@@ -26,7 +26,7 @@ setup(
     py_modules=['django_kadabra'],
     packages=(
         'django_kadabra.middleware',
-    )
+    ),
     zip_safe=False,
     include_package_data=True,
     platforms='any',
